@@ -1,0 +1,55 @@
+h2 {
+    text-align: center;
+    color: rgb(49, 16, 80);
+    border-style: dotted;
+    border-color:blueviolet;
+    padding: 10px;
+}
+.sp{
+   list-style-type:circle;
+   font-size: larger;
+   border: 1px solid black;
+   width: 20%;
+   background-color: cornflowerblue;
+}
+#paragraph{
+    width: 80%;
+    line-height: 1.4em;
+}
+.absolut{
+    position:absolute;
+    left: 50px;
+    top: 400px;
+}
+.relat{
+    position: relative;
+    left: 50%;
+}
+.form{
+    border: 2px solid rgb(49, 16, 80);
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.field:invalid
+{
+    background-color:lightpink;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+}
+.field:valid
+{
+    background-color:mediumseagreen;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+}
+.submit
+{
+    font-weight: bold;
+    font-size: larger;
+    background-color:mediumpurple;
+}
